@@ -1,0 +1,14 @@
+[project]
+site_name = "Shared Note"
+site_url = "https://amctl.github.io/shared-note/"
+nav = [
+  { "My Note" = "index.md" },
+]
+extra_css = ["stylesheets/extra.css"]
+
+[project.markdown_extensions]
+"pymdownx.superfences" = {
+  custom_fences = [
+    { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
+  ]
+}

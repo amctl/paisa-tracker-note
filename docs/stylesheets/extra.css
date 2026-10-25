@@ -1,0 +1,15 @@
+/* Constrain the diagram to the article width */
+.mermaid {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  box-sizing: border-box;
+}
+
+/* Scale the SVG to fit */
+.mermaid svg {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
